@@ -1,5 +1,5 @@
 import time
-theTime = input("Insert time to count down (HH:MM:SS)")
+theTime = input("Insert time to count down (HH:MM:SS)") # we should use this format
 
 
 b=[int(i) for i in theTime.split(":")]
